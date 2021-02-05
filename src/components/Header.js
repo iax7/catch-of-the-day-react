@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 //     render() {
 //         return (
 //             <header className="top">
-//                 <h1>Catch 
+//                 <h1>Catch
 //                     <span className="ofThe">
 //                         <span className="of">of</span>
 //                         <span className="the">the</span>
@@ -25,7 +25,7 @@ import PropTypes from 'prop-types';
 //const Header = (props) => () Implicit return
 const Header = props => (
     <header className="top">
-        <h1>Catch 
+        <h1>Catch
             <span className="ofThe">
                 <span className="of">of</span>
                 <span className="the">the</span>

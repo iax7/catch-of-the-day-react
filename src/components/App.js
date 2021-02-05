@@ -30,7 +30,7 @@ class App extends React.Component {
             state: 'fishes'
         })
     };
-    componentDidUpdate() { 
+    componentDidUpdate() {
         const {
             params
         } = this.props.match;
@@ -83,7 +83,7 @@ class App extends React.Component {
         const order = {...this.state.order};
         // 2. remove that item from orders (no firebase, you can remove it)
         delete order[key];
-        // 3. call setState to update 
+        // 3. call setState to update
         this.setState({ order });
     }
     render() {
@@ -99,7 +99,7 @@ class App extends React.Component {
                                                                          />)}
                     </ul>
                 </div>
-                <Order 
+                <Order
                     fishes={this.state.fishes}
                     order={this.state.order}
                     removeFromOrder={this.removeFromOrder}

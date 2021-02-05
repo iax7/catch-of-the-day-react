@@ -73,8 +73,8 @@ class Inventory extends React.Component {
                 </div>
             )
         }
-        
-        // 3. They must be the owner, just render the inventory 
+
+        // 3. They must be the owner, just render the inventory
         return (
             <div className="inventory">
                 <h2>Inventory</h2>

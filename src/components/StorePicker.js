@@ -23,8 +23,8 @@ class StorePicker extends React.Component {
     //goToStore(event) {
     //    if you use a normal function (not a property with arrow function)
     //    in order to access "this" you need to bind it as is not a default react function
-    //    constructor() { 
-    //       super(); 
+    //    constructor() {
+    //       super();
     //       this.goToStore = this.goToStore.bind(this);
     //    }
     //}
@@ -39,7 +39,7 @@ class StorePicker extends React.Component {
                 <input type="text"
                        ref={this.myInput}
                        required
-                       placeholder="Store Name" 
+                       placeholder="Store Name"
                        defaultValue={getFunName()}>
                 </input>
                 <button type="submit">Visit Store -></button>
