@@ -19,7 +19,7 @@ class Order extends React.Component {
             key,
             timeout: { enter: 500, exit: 500}
         };
-        // Make sure the fish is loaded before continue 
+        // Make sure the fish is loaded before continue
         if (!fish) return null; // renders nothing
 
         if (!isAvailable) {
@@ -57,7 +57,7 @@ class Order extends React.Component {
             if (isAvailable) {
                 return prevTotal + (count * fish.price)
             }
-            return prevTotal; 
+            return prevTotal;
         }, 0);
 
         return (
